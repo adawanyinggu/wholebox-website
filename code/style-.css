@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset code end */
+
+/* global */
+
+/* navbar begin*/
+
+nav {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tab-navigation{
+  display:flex;
+  flex-grow: 5;
+  justify-content: center;
+}
+
+.tab-navigation li{
+  height: 21px;
+  width: 71px;
+  color: #7A7A7A;
+  font-family: "Lucida Grande";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#navbar-logo{
+  height: 50px;
+  width: 197.25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+bottom{
+  font-family: "Lucida Grande";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  text-align: center;
+}
+
+#active{
+	color: #000;
+	font-weight: bold;
+}
+
+.box-1{
+  display:flex;
+  flex-grow: 3;
+  justify-content: center;
+}
+
+.box-3{
+  display:flex;
+  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-cta{
+  color: #fff;
+  border-color: #fff;
+  border-radius: 4px;
+  background-color: #81D06D;
+  margin: 16px;
+  height: 40px;
+  width: 146px;
+}
+
+.secondary-cta{
+  color: #81D06D;
+  background-color: #fff;
+  border-color: #81D06D;
+  border-width: 2px;
+  border-radius: 4px;
+  margin: 16px;
+  height: 40px;
+  width: 146px;
+}
+
+
+/* navbar end */
+
+.hero{
+		background-image: url("img/hero.png");
+  	height: 583px;
+		align-items: center;
+}
+
+h1{
+  color: #3D3D3D;
+  font-family: Point;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+}
+
+.hero-container{
+	padding-left: 122px;
+	padding-top: 168px;
+	padding-bottom: 168px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-text{
+	color: #3D3D3D;
+	font-family: "Sofia Pro";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	text-align: justify;
+	padding-top: 10px;
+}
+
+#hero-cta{
+	margin-left: 0px;
+}
+
+/* how it works BEGIN */
+.how-it-works{
+	height: 775px;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h2{
+ color: #3D3D3D;
+ font-family: Point;
+ font-size: 40px;
+ font-weight: 800;
+ line-height: 48px;
+ text-align: justify;
+ margin-top: 117px;
+ margin-bottom: 53px;
+ display: flex;
+}
+
+.hiw-items{
+	display: flex;
+	justify-content: center;
+}
+
+
+.hiw-items li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	padding: 0px 55px 0px 55px;
+}
+
+.hiw-img{
+	height: 100px;
+	padding-top: 69px;
+	padding-bottom: 42px;
+}
+
+.hiw-items li h3{
+	color: #3D3D3D;
+	font-family: Pieta;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	text-align: justify;
+}
+
+.hiw-items li p{
+	height: 85px;
+	opacity: 0.8;
+	color: #404040;
+	font-family: "Lucida Grande";
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 16px;
+}
+
+#hiw-cta{
+	margin: 80px;
+}
+
+
+
+/* how it works END */

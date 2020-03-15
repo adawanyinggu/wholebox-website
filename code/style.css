@@ -1,0 +1,82 @@
+/* GLOBAL CHANGES */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.primary-cta {
+  	height: 32px;
+  	width: 140px;
+  	border-radius: 4px;
+  	background-color: #81D06D;
+    border-color: #81D06D;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.secondary-cta {
+  	height: 32px;
+  	width: 140px;
+  	border-radius: 4px;
+  	background-color: #FFFFFF;
+    border-color: #81D06D;
+    color: #81D06D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.navbar .primary-cta .secondary-cta {
+  margin-right: 10px;
+}
+
+
+#navbar-logo {
+  width: 15vw;
+  margin: 20px;
+}
+
+#tab-navigation {
+  list-style-type: none;
+}
+
+#tab-navigation li {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+	color: #7A7A7A;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+  font-weight: normal;
+	line-height: 21px;
+}
+
+#tab-navigation .active {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+  color: #4F4F4F;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 21px;
+}
+
+
+
+/* Hero */
