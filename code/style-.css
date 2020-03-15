@@ -235,6 +235,20 @@ h2{
 	margin: 80px;
 }
 
+@media only screen and (max-width: 600px) {
+	.hiw-items li{
+		display:  block;
+		flex-direction: row ;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 1;
+		padding: 0px 55px 0px 55px;
+    display: block;
+  	float: none;
+  	width: 100%;
+	}
+}
+
 
 
 /* how it works END */
